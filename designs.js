@@ -22,3 +22,11 @@ function makeGrid(height, width) {
     };
 };
 
+//listen to the pick color event
+canvas.addEventListener('click', pickColor);
+
+//Function for changing pixels colors.
+function pickColor(evt){
+    let color = document.getElementById('colorPicker').value;
+    evt.target.style.backgroundColor = color
+}
