@@ -9,14 +9,14 @@ for(var y = 1; y <= 20; y++){
     for(var x= 1; x <= 20; x++){
         var newCell = newRow.insertCell();
         if(x%2 == 0){
-            newCell.style.backgroundColor = '#f08000' //coloring initial griz
-        }
-    }
-}
+            newCell.style.backgroundColor = '#f08000'; //coloring initial griz
+        };
+    };
+};
 
 //listen to the submit size event
-submitSize.addEventListener('click', function(event){ //
-    event.preventDefault();  
+submitSize.addEventListener('click', function(event){
+    event.preventDefault();
     let height = document.getElementById('inputHeight').value; //input value
     let width = document.getElementById('inputWidth').value; //input value    
     return makeGrid(height, width);

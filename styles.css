@@ -2,33 +2,37 @@ body {
     text-align: center;
     background-color: #312040;
     margin: 0;
-    color: #ffffff;
+    color: #fff;
     font-family: 'Lato', sans-serif;
     text-shadow: 1px 1px #f08000;
 }
+ /* HEADER */
 .container {
     position: relative;
     text-align: center;
 }
+
 img {
     width: 100%;
 }
+
 h1 {
-    font-size: 90px;
+    font: 90px 'Orelega One', cursive;
     line-height: 80%;
     position: absolute;
     top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff;
-    text-shadow: 2px 2px #000000;
-    font-family: 'Orelega One', cursive;
+    color: #fff;
+    text-shadow: 2px 2px #000;
 }
+
 #subhead {
     font-size: 70px;
     color :#f08000;
-    
 }
+
+/* CONTENT */
 
 h2 {
     margin: 1em 0 0.25em;
@@ -38,6 +42,18 @@ h2:first-of-type {
     margin-top: 0.5em;
 }
 
+input[type=number] {
+    width: 5em;
+    border: 0;
+}
+
+input[type=submit] {
+    border: 0;
+    color :#f08000;
+    font-family: 'Orelega One', cursive;
+}
+
+ /* TABLE */
 table,
 tr,
 td {
@@ -59,12 +75,4 @@ tr {
 td {
     width: 20px;
 }
-input[type=number] {
-    width: 5em;
-    border: 0px;
-}
-input[type=submit] {
-    border: 0px;
-    color :#f08000;
-    font-family: 'Orelega One', cursive;
-}
+
