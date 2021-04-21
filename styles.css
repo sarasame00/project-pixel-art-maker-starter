@@ -3,7 +3,8 @@ body {
     background-color: #312040;
     margin: 0;
     color: #ffffff;
-    font-family: 'Orelega One', cursive;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 1px 1px #f08000;
 }
 .container {
     position: relative;
@@ -20,9 +21,13 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    font-family: 'Orelega One', cursive;
 }
 #subhead {
     font-size: 70px;
+    color :#f08000;
+    
 }
 
 h2 {
